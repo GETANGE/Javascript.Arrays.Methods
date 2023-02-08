@@ -1,0 +1,20 @@
+//Array Method1:LITERAL.
+ var array1=['Emmanuel','Getange','Mokomba']
+  for(i=0; i<array1.length; i++){
+    console.log(array1[i]);
+  }
+
+//Array Method2:new KEYWORD.
+let array2= new Array();
+   array2[0]='JoyElizabeth';
+   array2[1]='Muthoni';
+   array2[2]='Kiboi';
+     for(let i=0; i<array2.length; i++){
+        console.log(array2[i]);
+     }
+
+//Array Method3:new KEYWORD.Using constructors.
+const array3= new Array('Fullstack Developer',468000, 'Mid-level Developer');
+    for(i=0; i<array3.length; i++){
+        console.log(array3[i]);
+    }
