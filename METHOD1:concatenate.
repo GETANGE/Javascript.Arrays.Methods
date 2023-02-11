@@ -1,0 +1,30 @@
+   //METHOD1:concatenate.
+    var arr1=['Java','Javascript','Kotlin',];
+     var arr2=['C++','Python','Android'];
+     let arr3=['Fullstack Development'];
+    let result4=arr1.concat(arr2,arr3);
+    console.log(result4);
+     console.log(arr1[2]);//accessing array at the 0 index.
+     console.log(arr1[1]);//accessing array at the 1 index.
+
+     let arr4=[2,3,4];
+       arr.name='Emmanuel';
+    console.log(arr['name']);
+
+    //concatenating nested arrays.
+    let randomList=[1,2,3,4];
+    let randomNestedList=[
+      [5,6],
+      [7,8],
+      [9,10],
+    ];
+    let result5=randomList.concat(randomNestedList);
+     console.log(result5);
+
+     //change the random list index 0  from 1 to 0.
+     randomList[0]='JAVASCRIPT';
+     console.log(randomList);
+
+     //modifying the randomNestedList.
+     randomNestedList[1].push(4);
+     console.log(randomNestedList);
