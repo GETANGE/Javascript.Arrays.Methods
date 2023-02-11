@@ -1,0 +1,17 @@
+   //ARRAY METHOD 3:entries.
+    let languages=['Java','Kotlin','Python','JavaScript']
+      /* array iterator object that contains key-value pairs for each index in the array.*/
+      let iterator=languages.entries();
+        //output should be in a 2-dimensional array.It does not change the values of the array.
+        for(let array of iterator){
+          console.log(array);
+        }
+
+        //suing the NEXT method.
+    var symbols=['@','#','$','%','^']
+      let iterator1=symbols.entries();
+      console.log(iterator1.next().value);
+      console.log(iterator1.next().value);
+      console.log(iterator1.next().value);
+      console.log(iterator1.next().value);
+      console.log(iterator1.next().value);
